@@ -1,0 +1,8 @@
+<form (ngSubmit)=onSubmit(f) #f="ngForm">
+<table class="table">
+<tr><td>name</td><td><input type="text" name="name" class="form-control" ngModel></td></tr>
+<tr><td>email</td><td><input type="email" name="email" class="form-control" ngModel></td></tr>
+<tr><td>message</td><td><textarea class="form-control" cols="12" rows="10" name="text" ngModel></textarea></td></tr>
+<tr><td></td><td><button type="submit" class="btn btn-success">submit</button></td></tr>
+</table>
+</form>
